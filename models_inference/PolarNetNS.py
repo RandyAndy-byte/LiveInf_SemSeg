@@ -13,8 +13,8 @@ import torch
 from dataloader.inference_dataloader_SK import collate_fn_BEV_test, Custom, spherical_dataset
 from dataloader.data_adjustment import train2SemKITTI, genColorsNusc, get_nuScenes_label_name, genColors
 import yaml
-from network.BEV_Unet import BEV_Unet
-from network.ptBEV import ptBEVnet
+from network.polarnet.BEV_Unet import BEV_Unet
+from network.polarnet.ptBEV import ptBEVnet
 
 # ignore weird np warning
 import warnings
