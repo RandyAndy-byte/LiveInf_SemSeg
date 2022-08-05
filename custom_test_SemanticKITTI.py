@@ -12,8 +12,8 @@ import torch
 
 from dataloader.custom_dataloader_SK import collate_fn_BEV_test, Custom, SemKITTI_label_name, spherical_dataset
 from dataloader.data_adjustment import train2SemKITTI, genColors, removeObject, createFiles
-from network.BEV_Unet import BEV_Unet
-from network.ptBEV import ptBEVnet
+from network.polarnet.BEV_Unet import BEV_Unet
+from network.polarnet.ptBEV import ptBEVnet
 
 warnings.filterwarnings("ignore")
 
