@@ -15,9 +15,9 @@ from dataloader import load_save_util
 from dataloader.inference_dataloader_C3D import collate_fn_BEV, SemKITTI_demo, cylinder_dataset
 from dataloader.data_adjustment import genColors, train2SemKITTI
 import yaml
-from network.cylinder_spconv_3d import cylinder_asym
-from network.segmentator_3d_asymm_spconv import Asymm_3d_spconv
-from network.cylinder_fea_generator import cylinder_fea
+from network.cylindernet.cylinder_spconv_3d import cylinder_asym
+from network.cylindernet.segmentator_3d_asymm_spconv import Asymm_3d_spconv
+from network.cylindernet.cylinder_fea_generator import cylinder_fea
 
 # ignore weird np warning
 import warnings
