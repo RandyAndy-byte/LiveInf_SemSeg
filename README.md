@@ -36,7 +36,5 @@ Future Work
 
 ![rwfwrferf](https://github.com/RandyAndy-byte/LiveInf_SemSeg/assets/80483401/c38c24e3-c11f-42f4-8741-7d27a37e8d94)
 
-I lost the slideshow to show the gifs of the project i had :(
-
 
 
